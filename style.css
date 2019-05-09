@@ -16,3 +16,31 @@ body {
 h1 {
     text-align: center;
 }
+
+
+body {
+    background: lightgreen;
+    font-family: Georgia, Arial, Helvetica;
+}
+
+.container {
+    max-width: 500px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.head {
+    color: red;
+}
+
+.intro {
+    color: green
+}
