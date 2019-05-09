@@ -19,6 +19,9 @@ body {
 	margin: auto;
 	background-color: rgba(39, 174, 96, 0.8);
 	color: white;
+	width: 80%;
+	border-radius: 10px;
+	padding: 30px;
 }
 
 .top h1 {
@@ -37,6 +40,8 @@ body {
 
 table {
 	border-collapse: collapse;
+	width: 100%;
+	margin: 20px auto;
 }
 
 
@@ -71,4 +76,9 @@ i.fa{
     border-radius: 50%;
     background-color: #333;
     margin: 0 auto;
+}
+
+.info p {
+    margin: 5px auto 40px;
+    width: 300px;
 }
