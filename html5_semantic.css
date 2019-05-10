@@ -11,3 +11,34 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+header {
+    background: #34495e;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+footer {
+    background: #34495e;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav ul {
+    margin: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 7px;
+    color: inherit;
+}
