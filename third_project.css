@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #CCC;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    background-color: #FFF;
+    border: 4px solid red;
+}
+
+header {
+    padding: 30px;
+    background-image: url(https://pixabay.com/get/eb37b20d2af0073ed1534705fb0938c9bd22ffd41cb4164795f2c578af/mt-fuji-2232246_1920.jpg);
+}
+
+header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+header h1, header p {
+    color: #310682;
+    text-align: center;
+}
