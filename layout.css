@@ -1,31 +1,10 @@
-/* CLEARFIX METHOD */
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+.fish {
+    width: 200px;
+    float: left;
+    margin: 10px
 }
-.clearfix:after {
-    clear: both;
-}
-/* OTHER STYLES */
-.container {
-	background: #34495e;
-	padding: 20px;
-}
-.container div {
-	height: 200px;
-	min-width: 25%;
-	float: left;
-}
-.one {
-	background-color: #2ecc71;
-}
-.two {
-	background-color: #3498db;
-}
-.three {
-	background-color: #f1c40f;
-}
-.four {
-	background-color: #9b59b6;
+.desert {
+    width: 200px;
+    float: right;
+    margin: 10px;
 }
