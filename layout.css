@@ -1,0 +1,27 @@
+div {
+	border: 5px solid;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.header {
+	border-color: #2ecc71;
+}
+.container {
+	border: none;
+	padding: 0;
+}
+.nav {
+	border-color: #e74c3c;
+	float: left;
+	width: 150px;
+	height: 200px;
+}
+.content {
+	border-color: #f1c40f;
+	margin-left: 150px;
+	height:200px;
+}
+.footer {
+	border-color: #9b59b6;
+}
