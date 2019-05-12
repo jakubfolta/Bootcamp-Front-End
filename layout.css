@@ -14,12 +14,12 @@ div {
 .nav {
 	border-color: #e74c3c;
 	float: left;
-	width: 150px;
+	width: 100px;
 	height: 200px;
 }
 .content {
 	border-color: #f1c40f;
-	margin-left: 150px;
+	margin-left: 100px;
 	height:200px;
 }
 .footer {
