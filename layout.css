@@ -1,27 +1,17 @@
-div {
-	border: 5px solid;
+body {
 	text-align: center;
-	padding: 5px;
-	box-sizing: border-box;
+	margin: 0;
 }
 .header {
-	border-color: #2ecc71;
+	background-color: #aaa;
+	padding: 10px;
+	color: #fff;
 }
-.container {
-	border: none;
-	padding: 0;
-}
-.nav {
-	border-color: #e74c3c;
-	float: left;
-	width: 100px;
-	height: 200px;
+p {
+    text-align: justify;
+    padding: 0 50px;
 }
 .content {
-	border-color: #f1c40f;
-	margin-left: 100px;
-	height:200px;
-}
-.footer {
-	border-color: #9b59b6;
+	width: 500px;
+	margin: 0 auto;
 }
