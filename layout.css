@@ -1,23 +1,19 @@
-.container div {
-	height: 100px;
-	min-width: 24%;
-	display: inline-block;
+div {
+	height: 200px;
+	margin-bottom: 20px;
+	min-width: 50%;
+	clear: both;
 }
 .one {
 	background-color: #2ecc71;
+	float: none;
 }
 .two {
 	background-color: #3498db;
+	float: left;
+
 }
 .three {
 	background-color: #f1c40f;
-}
-.four {
-	background-color: #9b59b6;
-}
-.dont-show {
-	display: none !important;
-}
-.hide {
-	visibility: hidden;
+	float: right;
 }
