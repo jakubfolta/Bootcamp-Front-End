@@ -1,17 +1,23 @@
-body {
-	text-align: center;
-	margin: 0;
+.container div {
+	height: 100px;
+	min-width: 24%;
+	display: inline-block;
 }
-.header {
-	background-color: #aaa;
-	padding: 10px;
-	color: #fff;
+.one {
+	background-color: #2ecc71;
 }
-p {
-    text-align: justify;
-    padding: 0 50px;
+.two {
+	background-color: #3498db;
 }
-.content {
-	width: 500px;
-	margin: 0 auto;
+.three {
+	background-color: #f1c40f;
+}
+.four {
+	background-color: #9b59b6;
+}
+.dont-show {
+	display: none !important;
+}
+.hide {
+	visibility: hidden;
 }
