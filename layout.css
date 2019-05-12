@@ -1,19 +1,14 @@
 div {
-	height: 200px;
-	margin-bottom: 20px;
-	min-width: 50%;
-	clear: both;
+    box-sizing: border-box;
+	padding: 20px;
+	border: 5px solid;
 }
-.one {
-	background-color: #2ecc71;
-	float: none;
+.left {
+    border-color: #e74c3c;
+    width: 200px;
+    float:left;
 }
-.two {
-	background-color: #3498db;
-	float: left;
-
-}
-.three {
-	background-color: #f1c40f;
-	float: right;
+.right {
+    border-color: #2ecc71;
+    margin-left: 200px;
 }
