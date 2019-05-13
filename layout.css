@@ -16,10 +16,12 @@ div {
 	float: left;
 	height: calc(100vh - 50px);
 }
-
 .col {
-    float: left;
-    height: calc(100vh - 50px);
-    width: calc(50vw - 20px);
-    border-color: #e67e22;
+	float: left;
+	height: calc(100vh - 50px);
+	width: calc(50vw - 20px);
+	border-color: #e67e22;
+	overflow: auto;
+	padding: 10px;
+	text-align: justify;
 }
