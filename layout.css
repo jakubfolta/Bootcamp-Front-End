@@ -1,12 +1,20 @@
 body {
     margin: 0;
-    border: 5px solid red;
+}
+
+div {
+    border: 5px solid;
+    box-sizing: border-box;
 }
 
 .header {
     height: 50px;
+    border-color: #2ecc71;
 }
 
-div {
-    border: 5px solid blue;
+.nav {
+    width: 40px;
+    height: calc(100vh -50px);
+    border-color: #3498db;
+    float: left;
 }
