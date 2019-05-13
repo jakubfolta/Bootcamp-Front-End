@@ -56,3 +56,22 @@ h1 {
 .main img {
     width: 100;
 }
+
+.social-media {
+    position: fixed;
+    top: calc(50vh - 65px);
+    left: 10px;
+    width: 40px;
+}
+
+.social-media i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: #ccc;
+    line-height: 40px;
+    text-align: center;
+}
