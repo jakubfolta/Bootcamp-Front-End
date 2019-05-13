@@ -1,27 +1,12 @@
-div {
-	border: 5px solid;
-	text-align: center;
-	padding: 5px;
-	box-sizing: border-box;
+body {
+    margin: 0;
+    border: 5px solid red;
 }
-.header {
-	border-color: #2ecc71;
-}
-.container {
-	padding: 0;
-}
-.nav {
-	border-color: #e74c3c;
-	height: 350px;
-    width: 200px;
-    float: left;
-}
-.content {
-	border-color: #f1c40f;
-	height: 350px;
-	margin-left: 200px;
 
+.header {
+    height: 50px;
 }
-.footer {
-	border-color: #9b59b6;
+
+div {
+    border: 5px solid blue;
 }
