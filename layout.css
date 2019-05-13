@@ -1,27 +1,20 @@
-body {
-    margin: 0;
-    overflow: hidden;
+.container {
+	padding: 100px;
+	background: #2ecc71;
+    position: relative;
 }
-div {
-    border: 5px solid;
-	box-sizing: border-box;
+.element {
+	width: 300px;
+	height: 50px;
+	background: #fff;
+	margin: 20px auto;
 }
-.header {
-    height: 50px;
-    border-color: #2ecc71;
-}
-.nav {
-	border-color: #3498db;
-	width: 40px;
-	float: left;
-	height: calc(100vh - 50px);
-}
-.col {
-	float: left;
-	height: calc(100vh - 50px);
-	width: calc(50vw - 20px);
-	border-color: #e67e22;
-	overflow: auto;
-	padding: 10px;
-	text-align: justify;
+.absolute {
+	color: #fff;
+	line-height: 50px;
+	padding-left: 10px;
+	background: #3498db;
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
