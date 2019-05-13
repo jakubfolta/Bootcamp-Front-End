@@ -29,3 +29,30 @@ h1 {
     text-transform: uppercase;
     margin: 0;
 }
+
+.container {
+    max-width: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main, .sidebar {
+    float: right;
+}
+
+.main {
+    width: 80%;
+}
+
+.sidebar {
+    width: 20%
+}
+
+.col {
+    float: left;
+    width: 25%;
+}
+
+.main img {
+    width: 100;
+}
