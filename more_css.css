@@ -6,7 +6,12 @@ body {
 .hero {
     background: url('/static/lessons/green-mountains.jpg')  0/cover no-repeat;
     height: 200px;
-    line-height: 160px;
+    line-height: 140px;
+    padding: 20px;
+}
+.hero div {
+	background-color: rgba(0, 0, 0, 0.4);
+
 }
 .container {
 	width: 80%;
@@ -15,6 +20,7 @@ body {
 	border-radius: 4px;
 	background-color: #fff;
 	padding: 20px;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 .nav {
 	text-align: center;
@@ -39,5 +45,5 @@ h1, .footer {
     background: #26C281;
 }
 h1 {
-    text-shadow: 2px 2px 5px #000;
+	text-shadow: 2px 2px 5px #000;
 }
