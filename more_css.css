@@ -1,29 +1,45 @@
-@import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 body {
 	background-color: #f39c12;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.hero {
+    background: url('/static/lessons/desert.jpg') 0/cover no-repeat;
+    height: 200px;
+    line-height: 160px;
 }
 .container {
+	max-width: 700px;
+	margin: 20px auto;
+	border-radius: 4px;
 	background-color: #fff;
 	padding: 20px;
-	max-width: 600px;
-	margin: auto;
-	border-radius: 4px;
+	overflow: hidden;
 }
-h1 {
+.nav {
 	text-align: center;
+	background: #f1c40f;
 }
-.serif {
-	font-family: 'Lora', serif;
+a {
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
 }
-.sans-serif {
-	font-family: 'Open Sans', sans-serif;
+a:hover {
+	color: #d35400;
 }
-.monospace {
-	font-family: 'Inconsolata', monospace;
+h1, .footer {
+	text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
 }
-.handwritting {
-	font-family: 'Pacifico', cursive;
+.footer {
+    background: #d35400;
+}
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
