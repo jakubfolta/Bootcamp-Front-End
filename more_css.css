@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 body {
 	background-color: #f39c12;
-	font-size: 18px;
-	color: #444;
+    font-family: Lato;
 }
 .container {
 	background-color: #fff;
@@ -12,7 +13,4 @@ body {
 }
 h1 {
 	text-align: center;
-}
-h2 {
-    font-size: 32px;
 }
