@@ -1,14 +1,15 @@
 body {
-	background-color: #f39c12;
+	background-color: #3498db;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 .hero {
-    background: url('/static/lessons/desert.jpg') 0/cover no-repeat;
-    height: 200px;
-    line-height: 160px;
+    height: 400px;
+    line-height: 360px;
+    background: red url("/static/lessons/blue-mountain.jpg") 0/cover;
 }
 .container {
+    width: 80%;
 	max-width: 700px;
 	margin: 20px auto;
 	border-radius: 4px;
@@ -17,16 +18,16 @@ body {
 }
 .nav {
 	text-align: center;
-	background: #f1c40f;
+	background: #3498db;
 }
 a {
-	padding: 20px;
+	padding: 10px;
 	color: #fff;
 	text-decoration: none;
 	display: inline-block;
 }
 a:hover {
-	color: #d35400;
+	color: #2980b9;
 }
 h1, .footer {
 	text-align: center;
@@ -35,14 +36,5 @@ h1, .footer {
     padding: 20px;
 }
 .footer {
-    background: #d35400;
-}
-.text-uppercase {
-    text-transform: uppercase;
-}
-.text-lowercase {
-    text-transform: lowercase;
-}
-.text-capitalize {
-    text-transform: capitalize;
+    background: #2980b9;
 }
