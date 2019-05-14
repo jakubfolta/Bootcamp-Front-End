@@ -7,7 +7,6 @@ body {
     background: url('/static/lessons/desert.jpg') 0/cover no-repeat;
     height: 200px;
     line-height: 160px;
-    width: 100%;
 }
 .container {
 	max-width: 700px;
@@ -38,9 +37,12 @@ h1, .footer {
 .footer {
     background: #d35400;
 }
-h2 {
-    letter-spacing: 10px;
+.text-uppercase {
+    text-transform: uppercase;
 }
-p {
-    word-spacing: 15px;
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
 }
