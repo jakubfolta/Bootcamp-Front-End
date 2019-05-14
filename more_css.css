@@ -7,6 +7,7 @@ body {
     background: url('/static/lessons/desert.jpg') 0/cover no-repeat;
     height: 200px;
     line-height: 160px;
+    width: 100%;
 }
 .container {
 	max-width: 700px;
@@ -14,7 +15,6 @@ body {
 	border-radius: 4px;
 	background-color: #fff;
 	padding: 20px;
-	overflow: hidden;
 }
 .nav {
 	text-align: center;
@@ -38,8 +38,9 @@ h1, .footer {
 .footer {
     background: #d35400;
 }
+h2 {
+    letter-spacing: 10px;
+}
 p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    word-spacing: 15px;
 }
