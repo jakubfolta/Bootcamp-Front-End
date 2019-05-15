@@ -7,7 +7,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 .hero {
-    background: url(/static/lessons/20.jpg) center;
+	background: url(/static/lessons/20.jpg) center;
 	background-size: cover;
 	height: 150px;
 	box-shadow: 1px 1px 3px #000;
@@ -40,13 +40,15 @@ table {
 table tr {
     border-bottom: 1px solid #ccc;
 }
-
+table tr:last-child {
+	border-bottom: none;
+}
 table th, table td {
 	padding: 10px;
 }
 table thead {
     background-color: #E5E5E5;
 }
-table tr:last-child {
-    border-bottom: none;
+table tr:nth-child(2) {
+    background-color: #FF8F8F
 }
