@@ -49,6 +49,9 @@ table th, table td {
 table thead {
     background-color: #E5E5E5;
 }
-table tr:nth-child(2) {
-    background-color: #FF8F8F
+table tbody tr:nth-child(2) {
+	background-color: #FF8F8F;
+}
+table tr:not(:last-child) {
+    background-color: lightgreen
 }
