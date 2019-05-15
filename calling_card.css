@@ -5,4 +5,15 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #3498db;
+}
+h1, h2 {
+    margin: 10px 0;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    background: url(/static/lessons/blue-mountain.jpg) center/cover;
 }
