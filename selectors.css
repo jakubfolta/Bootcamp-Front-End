@@ -32,10 +32,11 @@ body {
 h1 {
     text-align: center;
 }
-.container > p {
+.container>p {
     text-align: center;
     font-style: italic;
 }
-h2 ~ p {
-    color: #f00;
+* {
+    font-size: 18px;
+    border: 2px solid #f0f;
 }
