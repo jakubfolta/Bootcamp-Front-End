@@ -18,10 +18,26 @@ h1, h2 {
     background: url(/static/lessons/blue-mountain.jpg) center/cover;
 }
 .hero-content {
-    width: 500px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.7);
     margin: auto;
     box-shadow: 2px 2px 10px #000;
     border-radius: 4px;
     color: #FFF
+}
+button {
+    background-color: #2ecc71;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #27ae60;
+}
+button:active {
+    background-color: #F00707;
 }
