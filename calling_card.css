@@ -41,3 +41,23 @@ button:hover {
 button:active {
     background-color: #F00707;
 }
+.content {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 4px;
+    padding: 50px;
+    margin: 50px auto;
+    text-align: center;
+    color: #444;
+    background-color: #FFF;
+    box-shadow: 2px 2px 5px #000;
+}
+.content p {
+    margin: 0 0 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.content i {
+    font-size: 50px;
+}
