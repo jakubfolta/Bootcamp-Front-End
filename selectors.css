@@ -27,12 +27,18 @@ body {
     background-color: white;
     padding: 20px;
 	box-shadow: 2px 2px 10px #000;
+	text-align: center;
 }
 h1 {
     text-align: center;
 }
 .container > p {
     text-align: center;
-    background-color: #555;
-    color: #fff;
+    font-style: italic;
+}
+h1 + p {
+    background-color: #ff0000;
+}
+h2 + p {
+    background-color: #0f0;
 }
