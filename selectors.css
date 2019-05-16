@@ -35,3 +35,16 @@ nav ul li {
 .container:last-child > p:nth-of-type(2) {
     text-transform: uppercase;
 }
+nav a {
+    display: inline-block;
+    min-width: 120px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+nav li a:hover {
+    background-color: #53555D;
+}
