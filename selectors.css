@@ -45,6 +45,29 @@ nav a {
     color: #fff;
     cursor: pointer;
 }
-nav li a:hover {
+nav ul li a:hover {
     background-color: #53555D;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table th, table td {
+    padding: 10px;
+}
+table thead {
+    background-color: #4D71FA;
+}
+table tr {
+    border-bottom: 1px solid #E6E6E7;
+}
+table tr:last-child {
+    border-bottom: none;
+}
+table tbody tr:hover {
+    background-color: #E6E6E7;
+}
+table tbody tr:active {
+    background-color: #45db21;
 }
