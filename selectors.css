@@ -16,3 +16,22 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px black;
 }
+nav {
+    background-color: #222;
+    color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 1px 1px black;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+.container:last-child > p:nth-of-type(1) {
+    font-style: italic;
+}
+.container:last-child > p:nth-of-type(2) {
+    text-transform: uppercase;
+}
