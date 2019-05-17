@@ -8,7 +8,7 @@ body {
 }
 ul {
     padding: 0;
-    margin-top: 20;
+    margin-top: 0;
     list-styl-type: none;
 }
 nav li {
@@ -26,14 +26,16 @@ a {
     padding: 0 10px;
     color: white;
     text-decoration: none;
-    background-color: #3255a7;
+    background-color: #0a81ac;
     border-radius: 4px;
-    -webkit-transition: width 2s height 2s ease;
-    transition: width 2s height 2s ease;
+    transition: width 2s, height 2s, background-color 2s, ease 2s, color 2s, font-weight 2s, font-size 2s;
 }
 a:hover {
     background-color: #3255a7;
-    border-radius: 4px;
+    border-radius: 14px;
     width: 120px;
     height: 60px;
+    color: #d72525;
+    font-weight: bold;
+    font-size: 22px;
 }
