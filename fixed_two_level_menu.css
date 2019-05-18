@@ -51,3 +51,32 @@ nav li .dropdown {
 nav li:hover .dropdown {
     display: block;
 }
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    padding-top: 42vh;
+    text-align: center;
+    background: url(https://www.betterlifewisdom.com/wp-content/uploads/2019/01/kyoto-1860521_1920.jpg) center/cover;
+    overflow: hidden;
+}
+.jumbotron h1 {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 500px;
+    color: white;
+    font-family: "Quicksand";
+}
+button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #4577ED;
+    font: 20px Quicksand;
+    color: white;
+    transition: color 2s, font-size 2s, font-weight 2s, background-color 3s;
+}
+button:hover {
+    color: red;
+    font-size: 25px;
+    font-weight: 500px;
+    background-color: black;
+}
