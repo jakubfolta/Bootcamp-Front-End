@@ -11,7 +11,7 @@ ul {
     margin-top: 0;
     list-styl-type: none;
 }
-nav li {
+nav ul li {
     display: inline-block;
 }
 nav {
@@ -35,7 +35,17 @@ a:hover {
     border-radius: 14px;
     width: 120px;
     height: 60px;
-    color: #d72525;
+    color: black;
     font-weight: bold;
     font-size: 22px;
+}
+nav ul ul li {
+    display: block;
+}
+nav li .dropdown {
+    display: none;
+    position: absolute;
+}
+nav li:hover .dropdown {
+    display: block;
 }
