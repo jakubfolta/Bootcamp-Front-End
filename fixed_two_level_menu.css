@@ -9,14 +9,15 @@ body {
 ul {
     padding: 0;
     margin-top: 0;
-    list-styl-type: none;
+    list-style-type: none;
 }
 nav ul li {
     display: inline-block;
 }
 nav {
-    backround-color: #4577ED;
+    background-color: #4577ED;
     text-align: center;
+    box-shadow: 2px 2px 2px black;
 }
 a {
     height: 50px;
@@ -38,6 +39,7 @@ a:hover {
     color: black;
     font-weight: bold;
     font-size: 22px;
+    box-shadow: 2px 2px 2px #810606;
 }
 nav ul ul li {
     display: block;
