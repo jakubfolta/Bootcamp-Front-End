@@ -18,6 +18,12 @@ nav {
     background-color: #4577ED;
     text-align: center;
     box-shadow: 2px 2px 2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    padding-top: 15px;
 }
 a {
     height: 50px;
@@ -72,11 +78,15 @@ button {
     background-color: #4577ED;
     font: 20px Quicksand;
     color: white;
-    transition: color 2s, font-size 2s, font-weight 2s, background-color 3s;
+    border-radius: 4px;
+    transition: color 2s, font-size 2s, font-weight 2s, background-color 2s;
 }
 button:hover {
     color: red;
     font-size: 25px;
     font-weight: 500px;
     background-color: black;
+}
+button:active {
+    border: 2px solid red;
 }
