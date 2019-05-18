@@ -35,7 +35,7 @@ a {
     text-decoration: none;
     background-color: #0a81ac;
     border-radius: 4px;
-    transition: width 2s, height 2s, background-color 2s, ease 2s, color 2s, font-weight 2s, font-size 2s;
+    transition: 2s;
 }
 a:hover {
     background-color: #3255a7;
@@ -78,15 +78,19 @@ button {
     background-color: #4577ED;
     font: 20px Quicksand;
     color: white;
-    border-radius: 4px;
-    transition: color 2s, font-size 2s, font-weight 2s, background-color 2s;
+    border-radius: 6px;
+    transition: 2s;
+    border: none;
 }
 button:hover {
     color: red;
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: 900;
     background-color: black;
 }
 button:active {
     border: 2px solid red;
+}
+.jumbotron button {
+    cursor: pointer;
 }
