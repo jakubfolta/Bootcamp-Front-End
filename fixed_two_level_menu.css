@@ -114,4 +114,12 @@ button:active {
     box-sizing: border-box;
 }
 
-.gallery
+.gallery img {
+    float: left;
+    width: 25%;
+}
+
+.gallery img:hover {
+opacity: 0.8;
+cursor: pointer;
+}
