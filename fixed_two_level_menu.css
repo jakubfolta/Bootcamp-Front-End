@@ -3,8 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: lightblue;
-    font-family: "Quicksand";
+    background: #4075cd;
+    font-family: "Quicksand", sans-serif;
 }
 
 ul {
@@ -20,7 +20,7 @@ nav ul li {
 nav {
     background-color: #4577ED;
     text-align: center;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px #000;
     position: fixed;
     left: 0;
     right: 0;
@@ -81,17 +81,17 @@ nav li:hover .dropdown {
     font-size: 38px;
     font-weight: 500px;
     color: white;
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
 }
 
 button {
     margin-top: 20px;
     padding: 15px 40px;
     background-color: #4577ED;
-    font: 20px Quicksand;
+    font: 20px "Quicksand", sans-serif;
     color: #fff;
     border-radius: 6px;
-    transition: 2s;
+    transition: width 2s, color 2s, font-size 2s, font-weight 2s, background-color 2s;
     border: none;
 }
 
@@ -103,7 +103,7 @@ button:hover {
 }
 
 button:active {
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
 .jumbotron button {
