@@ -30,7 +30,7 @@ nav ul {
     padding-top: 15px;
 }
 
-a {
+nav a {
     height: 50px;
     width: 100px;
     display: inline-block;
@@ -109,3 +109,9 @@ button:active {
 .jumbotron button {
     cursor: pointer;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.gallery
