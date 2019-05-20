@@ -34,42 +34,42 @@ h1 {
 .exercise {
     padding-bottom: 20px;
 }
-.example button {
-    padding: 20px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    background-color: #27ae60;
-    width: 40%;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: transform 1s;
+.global-perspective, .element-perspective {
+	margin-top: 20px;
 }
-.example button:hover {
-	background-color: #2ecc71;
-	color: #fff;
+.global-perspective {
+	perspective: 800px;
 }
-.example:hover button {
-	transform: rotateX(360deg);
+.global-perspective div {
+	transform: rotateY(70deg);
 }
-.example button:nth-of-type(2) {
-	transform-origin: 0% 0%;
+.global-perspective div, .element-perspective div {
+	background: red;
+	width: 40%;
+	height: 30px;
+	margin: 5px auto;
+}
+.element-perspective div {
+	transform: perspective(800px) rotateY(70deg);
 }
 
 /*EXERCISE*/
 
-.new-origin {
-	color: #fff;
+.exercise > div {
 	width: 50%;
-	padding: 10px;
-	margin: 30px auto;
-	background-color: #16a085;
-	text-transform: uppercase;
-	transition-duration: 2s;
+	margin: 10px auto;
+	color: #fff;
+	background-color: #9b59b6;
+}
+.small-perspective {
+    transform: perspective(200px) rotateY(60deg);
 }
 
-.new-origin:hover {
-    transform: rotateY(360deg);
-    transform-origin: 0 0;
+.big-perspective {
+    transform: perspective(800px) rotateY(60deg);
+}
+
+.complex-perspective {
+    transform: rotateY(60deg);
+    perspective: 800px;
 }
