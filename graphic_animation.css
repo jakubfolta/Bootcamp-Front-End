@@ -34,48 +34,55 @@ h1 {
 .exercise {
     padding-bottom: 20px;
 }
-.example button {
-    padding: 20px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    background-color: #27ae60;
-    width: 40%;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-    animation: buttonPulse 1s infinite;
-}
-.example button:hover {
-    background-color: #2ecc71;
-}
-@keyframes buttonPulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
+.exercise {
+	min-height: 500px;
 }
 /*EXERCISE*/
-
-.practice-button {
-    border: none;
-    padding: 20px;
-    outline: none;
-    background-color: #f39c12;
-    color: #fff;
-    animation: buttonColor 2s infinite;
+.spinner {
+	display: block;
+	margin: 100px auto 0;
+	position: relative;
+	box-sizing: border-box;
+	width: 100px;
+	height: 100px;
+	border: 3px solid transparent;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-radius: 50%;
+	background: transparent;
+	animation: 2s linear spin infinite;
+}
+@keyframes spin {
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
-@keyframes buttonColor {
-    from {
-    background-color: #f39c12;
+.spinner:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 50%;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 1s linear spin-counterclockwise infinite;
 }
-    to {
-    background-color: blue;
-}
+
+@keyframes spin-counterclockwise {
+    50% {
+        transform: translate(-50%, -50%) rotate(-180deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
 }
