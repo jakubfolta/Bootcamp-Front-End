@@ -64,3 +64,7 @@ h1 {
 	text-transform: uppercase;
 	transition-duration: 2s;
 }
+
+.exercise-element:hover {
+    transform: matrix(0.8, 0.1, 0.1, 0.7, 30, 30)
+}
