@@ -34,42 +34,30 @@ h1 {
 .exercise {
     padding-bottom: 20px;
 }
-.global-perspective, .element-perspective {
-	margin-top: 20px;
+.example div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 10px auto;
+	transition-duration: 1s;
 }
-.global-perspective {
-	perspective: 800px;
+.example div:nth-of-type(1):hover {
+	transform: perspective(500px) translate3d(10px, 10px, -50px);
 }
-.global-perspective div {
-	transform: rotateY(70deg);
-}
-.global-perspective div, .element-perspective div {
-	background: red;
-	width: 40%;
-	height: 30px;
-	margin: 5px auto;
-}
-.element-perspective div {
-	transform: perspective(800px) rotateY(70deg);
+.example div:nth-of-type(2):hover {
+	transform: perspective(500px) translate3d(5px, 5px, 10px);
 }
 
 /*EXERCISE*/
 
-.exercise > div {
-	width: 50%;
-	margin: 10px auto;
-	color: #fff;
-	background-color: #9b59b6;
+.exercise-element {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    background: blue;
+    transform: perspective(800px) rotateX(45deg);
+    transition-duration: 2s;
 }
-.small-perspective {
-    transform: perspective(200px) rotateY(60deg);
-}
-
-.big-perspective {
-    transform: perspective(800px) rotateY(60deg);
-}
-
-.complex-perspective {
-    transform: rotateY(60deg);
-    perspective: 800px;
+.exercise-element:hover {
+    transform: perspective(800px) rotateX(45deg) translate3d(10%, 10%, -100px);
 }
