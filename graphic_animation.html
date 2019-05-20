@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>matrix()</title>
+    <title>Perspective</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div class="hero">
-        <h1>matrix()</h1>
+        <h1>Perspective</h1>
     </div>
     <div class="container">
         <div class="example">
             <h2>Example:</h2>
-            <p>Put your mouse over example area and see <b>transform-origin</b> working!</p>
-            <button>button with default origin</button>
-            <button>button with changed origin</button>
+            <p>This is element using <b>perspective: 800px</b>.</p>
+            <div class="global-perspective">
+            	<div>1</div>
+            	<div>2</div>
+            	<div>3</div>
+            </div>
+            <p>This is element using <b>transform: perspective(800px)</b>.</p>
+            <div class="element-perspective">
+            	<div>1</div>
+            	<div>2</div>
+            	<div>3</div>
+            </div>
         </div>
         <div class="exercise">
             <h2>Exercise:</h2>
             <p>Practice!</p>
-            <div class="new-origin">exercise element</div>
+            <div class="big-perspective">big-perspective</div>
+            <div class="complex-perspective">complex-perspective</div>
+            <div class="small-perspective">small-perspective</div>
         </div>
     </div>
 </body>
