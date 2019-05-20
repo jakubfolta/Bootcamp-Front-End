@@ -17,7 +17,7 @@ h1 {
     text-shadow: 1px 1px 1px #000;
 }
 .hero {
-    background: url('/static/lessons/4.jpg') bottom;
+    background: url('/static/lessons/16.jpg') center;
     background-size: cover;
     min-height: 150px;
     box-shadow: 1px 1px 3px #000;
@@ -34,34 +34,48 @@ h1 {
 .exercise {
     padding-bottom: 20px;
 }
-.example div {
-	width: 100px;
-	padding: 10px;
-	background-color: #1abc9c;
-	border: 2px solid #fff;
-	margin: 10px auto;
-	transition-duration: 1s;
-	text-transform: uppercase;
-	color: #fff;
+.example button {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    background-color: #27ae60;
+    width: 40%;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    animation: buttonPulse 1s infinite;
 }
-.example div:hover {
-	transform: rotateY(180deg);
+.example button:hover {
+    background-color: #2ecc71;
 }
-.example div:nth-of-type(2) {
-	backface-visibility: hidden;
+@keyframes buttonPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
-
 /*EXERCISE*/
 
-.practice {
-    width: 140px;
-    height: 140px;
-    margin: auto;
-    background: blue;
-    transition-duration: 1s;
+.practice-button {
+    border: none;
+    padding: 20px;
+    outline: none;
+    background-color: #f39c12;
+    color: #fff;
+    animation: buttonColor 2s infinite;
 }
 
-.practice:hover {
-    transform: rotateY(360deg);
-    backface-visibility: hidden;
+@keyframes buttonColor {
+    from {
+    background-color: #f39c12;
+}
+    to {
+    background-color: blue;
+}
 }
