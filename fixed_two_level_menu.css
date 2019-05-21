@@ -43,7 +43,7 @@ nav a {
     transition: 2s;
 }
 
-a:hover {
+nav a:hover {
     background-color: #3255a7;
     border-radius: 14px;
     width: 120px;
@@ -84,25 +84,26 @@ nav li:hover .dropdown {
     font-family: "Quicksand", sans-serif;
 }
 
-button {
+.jumbotron button {
     margin-top: 20px;
     padding: 15px 40px;
     background-color: #4577ED;
     font: 20px "Quicksand", sans-serif;
     color: #fff;
     border-radius: 6px;
-    transition: width 2s, color 2s, font-size 2s, font-weight 2s, background-color 2s;
+    transition: width 1s, color 1s, font-size 1s, font-weight 1s, background-color 1s, transform 1s;
     border: none;
 }
 
-button:hover {
+.jumbotron button:hover {
     color: #f30000;
     font-size: 25px;
     font-weight: 900;
     background-color: #000;
+    transform: rotate3d(2, 3 , 2, 360deg);
 }
 
-button:active {
+.jumbotron button:active {
     border: 3px solid red;
 }
 
@@ -122,4 +123,28 @@ button:active {
 .gallery img:hover {
     opacity: .8;
     cursor: pointer;
+}
+
+[class^="btn-"] {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 15px 30px;
+    min-width: 160px;
+    font: 16px bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background: inherit;
+    border: 2px solid;
+}
+
+.btn-purple {
+
+}
+
+.btn-yellow {
+
+}
+
+.btn-blue {
+
 }
