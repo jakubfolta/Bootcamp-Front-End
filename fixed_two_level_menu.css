@@ -125,26 +125,51 @@ nav li:hover .dropdown {
     cursor: pointer;
 }
 
+@media (max-width: 468px) {
+    .gallery img{
+        width: 100%;
+        float: none;
+    }
+}
+
+.buttons {
+    text-align: center;
+}
+
 [class^="btn-"] {
     display: inline-block;
     margin: 4px 2px;
     padding: 15px 30px;
-    min-width: 160px;
+    min-width: 200px;
     font: 16px bold;
     border-radius: 5px;
     cursor: pointer;
     background: inherit;
     border: 2px solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: .4s;
+}
+
+[class^="btn-"]:hover {
+    background-position: 0 100%;
+    color: white;
 }
 
 .btn-purple {
-
+    color: #8e44ad;
+    border-color: #8e44ad;
+    background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
 }
 
 .btn-yellow {
-
+    color: #f1c40f;
+    border-color: #f1c40f;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
 }
 
 .btn-blue {
-
+    color: #3498db;
+    border-color: #3498db;
+    background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
 }
