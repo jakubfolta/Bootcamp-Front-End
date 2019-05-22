@@ -179,14 +179,15 @@ nav li:hover .dropdown {
     margin: 2em;
     transform: rotate(22deg);
     transition: background linear .3s;
+    box-sizing: content-box;
 }
 
 .star8::before {
     background-color: #fff;
     content: "";
     position: absolute;
-    top: -20px;
-    left: -15px;
+    top: -5px;
+    left: -5px;
     transform: rotate(45deg);
 }
 
@@ -218,4 +219,31 @@ i.fa::before {
     transform: rotate(-22deg);
     position: absolute;
     margin: 10px;
+}
+
+.gold:hover::before, .gold:hover, .gold:hover i.fa {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.orange:hover::before, .orange:hover, .orange:hover i.fa {
+    background-color: #fd7e33;
+    color: #fff;
+}
+
+.blue:hover::before, .blue:hover, .blue:hover i.fa {
+    background-color: #3fb0ac;
+    color: #fff;
+}
+
+.gold, .gold::before, .gold i.fa {
+    transition: ease-in-out .3s;
+}
+
+.orange, .orange::before, .orange i.fa {
+    transition: ease-in-out .3s;
+}
+
+.blue, .blue::before, .blue i.fa {
+    transition: ease-in-out .3s;
 }
