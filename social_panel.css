@@ -21,21 +21,46 @@ h2 {
 }
 
 .twitter {
-
+    color: #4099FF;
 }
 
 .facebook {
-
+    color: #3B5998;
 }
 
 .google-plus {
-
+    color: #DB5A3C;
 }
 
 .instagram {
-
+    color: #5C3D2E;
 }
 
 .github {
+    color: #4183C4;
+}
 
+.icon-btn:hover {
+    transform: scale(1.10);
+    color: #fff;
+}
+
+.twitter:hover {
+    background-color: #4099FF;
+}
+
+.facebook:hover {
+    background-color: #3B5998;
+}
+
+.google-plus:hover {
+    background-color: #DB5A3C;
+}
+
+.instagram:hover {
+    background-color: #5C3D2E;
+}
+
+.github:hover {
+    background-color: #4183C4;
 }
