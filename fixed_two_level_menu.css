@@ -174,12 +174,17 @@ nav li:hover .dropdown {
     background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
 }
 
+.stars {
+    text-align: center;
+}
+
 .star8 {
     display: inline-block;
     margin: 2em;
     transform: rotate(22deg);
     transition: background linear .3s;
     box-sizing: content-box;
+    text-align: left;
 }
 
 .star8::before {
@@ -237,13 +242,13 @@ i.fa::before {
 }
 
 .gold, .gold::before, .gold i.fa {
-    transition: ease-in-out .3s;
+    transition: background-color ease-in-out .3s;
 }
 
 .orange, .orange::before, .orange i.fa {
-    transition: ease-in-out .3s;
+    transition: background-color ease-in-out .3s;
 }
 
 .blue, .blue::before, .blue i.fa {
-    transition: ease-in-out .3s;
+    transition: background-color ease-in-out .3s;
 }
