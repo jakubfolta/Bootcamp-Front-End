@@ -120,6 +120,13 @@ nav li:hover .dropdown {
     width: 25%;
 }
 
+.gallery::before,
+.gallery::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
 .gallery img:hover {
     opacity: .8;
     cursor: pointer;
@@ -196,7 +203,7 @@ nav li:hover .dropdown {
     transform: rotate(45deg);
 }
 
-.star8, .star8::before, i.fa {
+.star8, .star8::before, .star8 i.fa {
     height: 80px;
     width: 80px;
 }
@@ -213,14 +220,14 @@ nav li:hover .dropdown {
     border: 6px solid #3fb0ac;
 }
 
-i.fa {
+.star8 i.fa {
     margin: 0;
     position: absolute;
     background-color: #fff;
     font-size: 60px;
 }
 
-i.fa::before {
+.star8 i.fa::before {
     transform: rotate(-22deg);
     position: absolute;
     margin: 10px;
@@ -229,17 +236,87 @@ i.fa::before {
 .gold:hover::before, .gold:hover, .gold:hover i.fa {
     background-color: #ffc107;
     color: #fff;
-    transition: background-color ease-in-out .3s;
+    transition: all ease-in-out .3s;
 }
 
 .orange:hover::before, .orange:hover, .orange:hover i.fa {
     background-color: #fd7e33;
     color: #fff;
-    transition: background-color ease-in-out .3s;
+    transition: all ease-in-out .3s;
 }
 
 .blue:hover::before, .blue:hover, .blue:hover i.fa {
     background-color: #3fb0ac;
     color: #fff;
-    transition: background-color ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+
+.social .second_heading {
+    color: #dfb300;
+    font-size: 30px;
+    text-align: center;
+}
+
+.social {
+    margin: 0 auto;
+    width: 700px;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.icon-btn {
+    width: 75px;
+    height: 75px;
+    border: 0;
+    border-radius: 50%;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.twitter {
+    color: #4099FF;
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.google-plus {
+    color: #DB5A3C;
+}
+
+.instagram {
+    color: #5C3D2E;
+}
+
+.github {
+    color: #4183C4;
+}
+
+.icon-btn:hover {
+    transform: scale(1.10);
+    color: #fff;
+}
+
+.twitter:hover {
+    background-color: #4099FF;
+}
+
+.facebook:hover {
+    background-color: #3B5998;
+}
+
+.google-plus:hover {
+    background-color: #DB5A3C;
+}
+
+.instagram:hover {
+    background-color: #5C3D2E;
+}
+
+.github:hover {
+    background-color: #4183C4;
 }
