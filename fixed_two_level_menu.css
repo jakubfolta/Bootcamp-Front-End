@@ -229,26 +229,17 @@ i.fa::before {
 .gold:hover::before, .gold:hover, .gold:hover i.fa {
     background-color: #ffc107;
     color: #fff;
+    transition: background-color ease-in-out .3s;
 }
 
 .orange:hover::before, .orange:hover, .orange:hover i.fa {
     background-color: #fd7e33;
     color: #fff;
+    transition: background-color ease-in-out .3s;
 }
 
 .blue:hover::before, .blue:hover, .blue:hover i.fa {
     background-color: #3fb0ac;
     color: #fff;
-}
-
-.gold, .gold::before, .gold i.fa {
-    transition: background-color ease-in-out .3s;
-}
-
-.orange, .orange::before, .orange i.fa {
-    transition: background-color ease-in-out .3s;
-}
-
-.blue, .blue::before, .blue i.fa {
     transition: background-color ease-in-out .3s;
 }
