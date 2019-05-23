@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
-body {
+.main {
     margin: 0;
     padding: 0;
     background: #4075cd;
     font-family: "Quicksand", sans-serif;
 }
 
-ul {
+.navi_un_list {
     padding: 0;
     margin-top: 0;
     list-style-type: none;
 }
 
-nav ul li {
+.navi_un_list_items {
     display: inline-block;
 }
 
-nav {
+.navi {
     background-color: #4577ED;
     text-align: center;
     box-shadow: 2px 2px 2px #000;
@@ -26,11 +26,12 @@ nav {
     right: 0;
 }
 
-nav ul {
+.navi_un_list {
     padding-top: 15px;
 }
 
-nav a {
+.navi_un_list_link,
+.dropdown_link {
     height: 50px;
     width: 100px;
     display: inline-block;
@@ -43,7 +44,8 @@ nav a {
     transition: 2s;
 }
 
-nav a:hover {
+.navi_un_list_link:hover,
+.dropdown_link:hover {
     background-color: #3255a7;
     border-radius: 14px;
     width: 120px;
@@ -54,16 +56,19 @@ nav a:hover {
     box-shadow: 2px 2px 2px #810606;
 }
 
-nav ul ul li {
+.dropdown_items {
     display: block;
 }
 
-nav li .dropdown {
+.dropdown {
     display: none;
     position: absolute;
+    padding: 0;
+    margin-top: 0;
+    list-style-type: none;
 }
 
-nav li:hover .dropdown {
+.navi_un_list_items:hover .dropdown {
     display: block;
 }
 
@@ -76,7 +81,7 @@ nav li:hover .dropdown {
     overflow: hidden;
 }
 
-.jumbotron h1 {
+.jumbotron .main_heading {
     margin: 0;
     font-size: 38px;
     font-weight: 500px;
@@ -133,7 +138,7 @@ nav li:hover .dropdown {
 }
 
 @media (max-width: 468px) {
-    .gallery img{
+    .gallery img {
         width: 100%;
         float: none;
     }
@@ -203,20 +208,25 @@ nav li:hover .dropdown {
     transform: rotate(45deg);
 }
 
-.star8, .star8::before, .star8 i.fa {
+.star8,
+.star8::before,
+.star8 i.fa {
     height: 80px;
     width: 80px;
 }
 
-.gold, .gold::before {
+.gold,
+.gold::before {
     border: 6px solid #ffc107;
 }
 
-.orange, .orange::before {
+.orange,
+.orange::before {
     border: 6px solid #fd7e33;
 }
 
-.blue, .blue::before {
+.blue,
+.blue::before {
     border: 6px solid #3fb0ac;
 }
 
@@ -233,19 +243,25 @@ nav li:hover .dropdown {
     margin: 10px;
 }
 
-.gold:hover::before, .gold:hover, .gold:hover i.fa {
+.gold:hover::before,
+.gold:hover,
+.gold:hover i.fa {
     background-color: #ffc107;
     color: #fff;
     transition: all ease-in-out .3s;
 }
 
-.orange:hover::before, .orange:hover, .orange:hover i.fa {
+.orange:hover::before,
+.orange:hover,
+.orange:hover i.fa {
     background-color: #fd7e33;
     color: #fff;
     transition: all ease-in-out .3s;
 }
 
-.blue:hover::before, .blue:hover, .blue:hover i.fa {
+.blue:hover::before,
+.blue:hover,
+.blue:hover i.fa {
     background-color: #3fb0ac;
     color: #fff;
     transition: all ease-in-out .3s;
