@@ -291,27 +291,27 @@
     background-color: #fff;
 }
 
-.twitter {
+.button_twitter {
     color: #4099FF;
 }
 
-.facebook {
+.button_facebook {
     color: #3B5998;
 }
 
-.google-plus {
+.button_google-plus {
     color: #DB5A3C;
 }
 
-.instagram {
+.button_instagram {
     color: #5C3D2E;
 }
 
-.github {
+.button_git {
     color: #4183C4;
 }
 
-.icon-btn:hover {
+.icon-btn:hover .link_icon {
     transform: scale(1.10);
     color: #fff;
 }
