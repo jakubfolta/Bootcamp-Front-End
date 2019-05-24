@@ -89,30 +89,29 @@
     font-family: "Quicksand", sans-serif;
 }
 
-.jumbotron button {
+.jum_button {
     margin-top: 20px;
     padding: 15px 40px;
     background-color: #4577ED;
     font: 20px "Quicksand", sans-serif;
     color: #fff;
     border-radius: 6px;
-    transition: width 1s, color 1s, font-size 1s, font-weight 1s, background-color 1s, transform 1s;
+    transition: all 1s;
     border: none;
 }
 
-.jumbotron button:hover {
+.jum_button:hover {
     color: #f30000;
     font-size: 25px;
     font-weight: 900;
     background-color: #000;
-    transform: rotate3d(2, 3 , 2, 360deg);
 }
 
-.jumbotron button:active {
+.jum_button:active {
     border: 3px solid red;
 }
 
-.jumbotron button {
+.jum_button {
     cursor: pointer;
 }
 
@@ -120,7 +119,7 @@
     box-sizing: border-box;
 }
 
-.gallery img {
+.gallery_img {
     float: left;
     width: 25%;
 }
@@ -132,13 +131,13 @@
     content: "";
 }
 
-.gallery img:hover {
+.gallery_img:hover {
     opacity: .8;
     cursor: pointer;
 }
 
 @media (max-width: 468px) {
-    .gallery img {
+    .gallery_img {
         width: 100%;
         float: none;
     }
@@ -210,7 +209,7 @@
 
 .star8,
 .star8::before,
-.star8 i.fa {
+.star_icon {
     height: 80px;
     width: 80px;
 }
@@ -230,14 +229,14 @@
     border: 6px solid #3fb0ac;
 }
 
-.star8 i.fa {
+.star_icon {
     margin: 0;
     position: absolute;
     background-color: #fff;
     font-size: 60px;
 }
 
-.star8 i.fa::before {
+.star_icon::before {
     transform: rotate(-22deg);
     position: absolute;
     margin: 10px;
@@ -245,7 +244,7 @@
 
 .gold:hover::before,
 .gold:hover,
-.gold:hover i.fa {
+.gold:hover .star_icon {
     background-color: #ffc107;
     color: #fff;
     transition: all ease-in-out .3s;
@@ -253,7 +252,7 @@
 
 .orange:hover::before,
 .orange:hover,
-.orange:hover i.fa {
+.orange:hover .star_icon {
     background-color: #fd7e33;
     color: #fff;
     transition: all ease-in-out .3s;
@@ -261,13 +260,13 @@
 
 .blue:hover::before,
 .blue:hover,
-.blue:hover i.fa {
+.blue:hover .star_icon {
     background-color: #3fb0ac;
     color: #fff;
     transition: all ease-in-out .3s;
 }
 
-.social .second_heading {
+.social_second_heading {
     color: #dfb300;
     font-size: 30px;
     text-align: center;
