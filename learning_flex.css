@@ -1,3 +1,32 @@
+.page {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
+}
+
+.nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: flex-end;
+}
+
+.menu_item {
+    padding: 5px;
+    justify-content: flex-end;
+}
+
+.item_link {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 900;
 }
