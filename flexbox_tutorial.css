@@ -20,18 +20,22 @@ body {
 }
 .row {
 	display: flex;
-	height: 50px;
+	border: 5px solid #34495e;
 }
-.first {
-	background-color: #3498db;
+.box {
 	flex: 1;
-}
-.second {
-	background-color: #2ecc71;
-	flex: 10;
+	padding: 20px;
+	border: 5px solid #3498db;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
 }
 .footer {
 	padding: 20px;
 	text-align: center;
 	font-size: 10px;
+}
+
+.first {
+    order: -1;
 }
