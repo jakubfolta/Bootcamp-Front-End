@@ -4,9 +4,9 @@ body {
 }
 .hero {
 	text-align: center;
-	background: url('/static/lessons/alignment.jpg') 0/cover;
-	height: 100px;
-	line-height: 50px;
+	background: url('/static/lessons/pipes.jpg') 0/cover;
+	height: 200px;
+	line-height: 150px;
 	overflow: auto;
 	color: #fff;
 	box-shadow: 2px 2px 5px #444;
@@ -14,36 +14,16 @@ body {
 h1 {
 	text-shadow: 2px 2px 5px #444;
 }
-.container {
-	width: 80%;
+.main-container {
+	width: 90%;
 	max-width: 700px;
 	background-color: #fff;
 	padding: 20px;
 	box-shadow: 2px 2px 5px #444;
 	margin: 20px auto;
 }
-.row {
-	display: flex;
-	border: 5px solid #34495e;
-	margin-bottom: 10px;
-	height: 120px;
-}
-.box {
-	background: #3498db;
-	text-align: center;
-	font-weight: 700;
-	height: 40px;
-	width: 40px;
-}
-.footer {
+.page-footer {
 	padding: 20px;
 	text-align: center;
 	font-size: 10px;
-}
-.flex-centering {
-	justify-content: center;
-	align-items: center;
-}
-.center-margin {
-	margin: auto;
 }
