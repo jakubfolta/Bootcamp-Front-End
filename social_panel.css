@@ -17,11 +17,12 @@ h2 {
 .icon-btn {
     width: 75px;
     height: 75px;
-    border: 0;
+    border: 0 #fff;
     border-radius: 50%;
     margin: 2px;
     cursor: pointer;
     font-size: 40px;
+    background-color: #fff;
 }
 
 .twitter {
