@@ -20,12 +20,15 @@ body {
 }
 .row {
 	display: flex;
-	border: 5px solid #34495e;
+	height: 50px;
 }
-.box {
+.first {
+	background-color: #3498db;
 	flex: 1;
-	padding: 20px;
-	border: 5px solid #3498db;
+}
+.second {
+	background-color: #2ecc71;
+	flex: 10;
 }
 .footer {
 	padding: 20px;
