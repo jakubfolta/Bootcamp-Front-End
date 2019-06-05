@@ -1,13 +1,20 @@
 # Joined Elements
 > Various elements joined into one page.
 
+## Check Here ==> https://project-135662.kodilla.com/
+
 ## Technologies
 * HTML5, CSS3
 
 ## Status
 Project is finished.<br/>
 
-![Button](./images/button.png) 
+## Button Hover
+![Button](./images/button.jpg)
+## Drop Down Fixed Menu
+![Menu](./images/menu.jpg) 
+## Whole Page
+![Page](./images/page.jpg) 
 
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
