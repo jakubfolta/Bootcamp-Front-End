@@ -1,18 +1,26 @@
 body {
 	margin: 0;
 }
+
+p {
+	font-size: 14px;
+}
+
 .jumbotron {
 	background: url('/static/lessons/17.jpg');
 	background-size: cover;
 	height: 250px;
 }
+
 .jumbotron h1 {
 	font-size: 25px;
 	font-weight: bold;
 }
+
 .jumbotron p {
 	font-size: 16px;
 }
+
 .footer {
 	padding: 20px;
 	text-align: center;
