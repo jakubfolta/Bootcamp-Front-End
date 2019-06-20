@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kodilla - Table</title>
+    <title>Kodilla - Forms</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,96 +13,32 @@
         </div>
     </div>
     <div class="container">
-		<h2>Tables</h2>
-		<p>For basic styling—light padding and only horizontal dividers—add the base class <strong>.table</strong> to any <strong>table</strong>. It may seem super redundant, but given the widespread use of tables for other plugins like calendars and date pickers, we've opted to isolate our custom table styles.</p>
-		<h2>Responsive tables</h2>
-		<p>Create responsive tables by wrapping any .table in .table-responsive to make them scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, you will not see any difference in these tables.</p>
-        <div class="table-section">
-            <div class="table-responsive">
-                <table class="table">
-                    <tr>
-                        <th>Name</th>
-                        <th>Surname</th>
-                        <th>Age</th>
-                        <th>Company</th>
-                        <th>Street</th>
-                        <th>City</th>
-                        <th>Phone</th>
-                    </tr>
-                    <tr>
-                        <td>James</td>
-                        <td>Lang</td>
-                        <td>41</td>
-                        <td>Big Wheel</td>
-                        <td>Rosebud Avenue</td>
-                        <td>Pine Bluff</td>
-                        <td>870-440-5782</td>
-                    </tr>
-                    <tr>
-                        <td>Karen </td>
-                        <td>Perry</td>
-                        <td>50</td>
-                        <td>Hoyden</td>
-                        <td>Stonepot Road</td>
-                        <td>Newark</td>
-                        <td>908-364-1962</td>
-                    </tr>
-                    <tr>
-                        <td>Jayme</td>
-                        <td>Russell</td>
-                        <td>50</td>
-                        <td>Ernst Home Centers</td>
-                        <td>Grove Avenue</td>
-                        <td>Oklahoma City</td>
-                        <td>580-324-6578</td>
-                    </tr>
-                    <tr>
-                        <td>Rebecca</td>
-                        <td>Mercado</td>
-                        <td>37</td>
-                        <td>Cut Above</td>
-                        <td>Hummingbird Way</td>
-                        <td>North Billerica</td>
-                        <td>781-910-2293</td>
-                    </tr>
-                    <tr>
-                        <td>Brenda</td>
-                        <td>Rock</td>
-                        <td>52</td>
-                        <td>Kent's</td>
-                        <td>Franklin Street</td>
-                        <td>Headland</td>
-                        <td>334-693-7032</td>
-                    </tr>
-                    <tr>
-                        <td>Ramona</td>
-                        <td>Martinez</td>
-                        <td>41</td>
-                        <td>Sound Advice</td>
-                        <td>Pringle Drive</td>
-                        <td>Chicago</td>
-                        <td>312-386-3705</td>
-                    </tr>
-                    <tr>
-                        <td>Lola</td>
-                        <td>Glidden</td>
-                        <td>71</td>
-                        <td>Boys Markets</td>
-                        <td>Laurel Lane</td>
-                        <td>Pecos</td>
-                        <td>432-448-7700</td>
-                    </tr>
-                    <tr>
-                        <td>Lamar</td>
-                        <td>Moore</td>
-                        <td>44</td>
-                        <td>Kinney Shoes</td>
-                        <td>Matthews Street</td>
-                        <td>Chicago</td>
-                        <td>815-603-0512</td>
-                    </tr>
-                </table>
-            </div>
+    	<div class="row">
+    		<div class="col-xs-6">
+    			<h2>Basic example</h2>
+				<p>All textual input, textarea, and select elements with <strong>.form-control</strong> are set to width: 100%; by default. Wrap labels and controls in <strong>.form-group</strong> for optimum spacing.</p>
+    		</div>
+    		<div class="col-xs-6">
+    			<h2>Don't mix groups</h2>
+				<p>Do not mix <strong>form groups</strong> directly with <strong>input groups</strong>. Instead, nest the input group inside of the form group.</p>
+    		</div>
+    	</div>
+        <div class="form">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputTopic">Topic</label>
+                    <input type="text" class="form-control" id="exampleInputTopic" placeholder="Topic">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputMessage">Message</label>
+                    <textarea class="form-control" rows="5" placeholder="Message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
 		</div>
     </div>
     <div class="footer">
