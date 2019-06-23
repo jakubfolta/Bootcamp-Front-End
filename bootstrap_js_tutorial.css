@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+
+.container {
+    max-width: 640px;
+}
+
+.img-responsive {
+	height: 125px;
+	width: 125px;
+	margin: 10px auto;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.carousel {
+    background-color: #222222;
+}
+
+.carousel img {
+    margin: auto;
+}
