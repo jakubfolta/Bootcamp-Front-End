@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	margin-top: 50px;
 }
 
 .jumbotron {
@@ -7,10 +8,6 @@ body {
     background-image: url(/static/lessons/4.jpg);
     background-size: cover;
     margin-bottom: 20px;
-}
-
-.nav-pills li a {
-	border-radius: 0;
 }
 
 h2 {
