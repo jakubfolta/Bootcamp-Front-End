@@ -2,14 +2,15 @@ body {
 	margin: 0;
 }
 
-.container {
-    max-width: 640px;
+.jumbotron {
+    height: 400px;
+    background-image: url(/static/lessons/4.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
 }
 
-.img-responsive {
-	height: 125px;
-	width: 125px;
-	margin: 10px auto;
+.nav-pills li a {
+	border-radius: 0;
 }
 
 h2 {
@@ -17,16 +18,12 @@ h2 {
     text-align: center;
 }
 
+.col-xs-4 {
+	border: 2px solid #000000;
+}
+
 .footer {
-	padding: 20px;
+    font-size: 10px;
 	text-align: center;
-	font-size: 10px;
-}
-
-.carousel {
-    background-color: #222222;
-}
-
-.carousel img {
-    margin: auto;
+	padding: 20px;
 }
