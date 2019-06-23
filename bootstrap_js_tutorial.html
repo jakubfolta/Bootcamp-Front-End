@@ -8,97 +8,42 @@
 <body>
     <div class="jumbotron">
         <div class="container">
-            <h1>Getting started Bootstrap!</h1>
+            <h1>Getting started with Bootstrap!</h1>
             <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
         </div>
     </div>
     <div class="container">
-		<h2>Options</h2>
-		<p>Use any of the available button classes to quickly create a styled button.</p>
-		<p>Fancy larger or smaller buttons? Add <strong>.btn-lg</strong>, <strong>.btn-sm</strong>, or <strong>.btn-xs</strong> for additional sizes.</p>
-		<h2>Options c.d.</h2>
-		<p>Create block level buttons—those that span the full width of a parent— by adding <strong>.btn-block</strong>.</p>
-		<p>No need to add <strong>:active</strong> as it's a pseudo-class, but if you need to force the same appearance, go ahead and add <strong>.active.</strong></p>
-        <div class="buttons">
-        	<h2>Buttons</h2>
-
-        	<!--your button-group start-->
-
-
-            	<div class="btn-group">
-                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Action <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <button type="button" class="btn btn-success">Action</button>
-                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group dropup">
-                    <button type="button" class="btn btn-warning">Dropup</button>
-                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                    </ul>
-                </div>
-
-                <div class="btn-group">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-success">Action</button>
-                        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="caret"></span>
-                            <span class="sr-only">Toggle dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">fsd</a></li>
-                            <li><a href="#">fsd</a></li>
-                        </ul>
-                    </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Action <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">fsd</a></li>
-                            <li><a href="#">fsd</a></li>
-                        </ul>
-                    </div>
-                    <div class="btn-group dropup">
-                        <button type="button" class="btn btn-info">Action</button>
-                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle dropdown</span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">fsd</a></li>
-                            <li><a href="#">fsd</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            <!--your button-group end-->
-
+    	<div class="row">
+	    	<div class="col-xs-6">
+				<h2>Modal</h2>
+				<p>Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</p>
+			</div>
+			<div class="col-xs-6">
+				<h2>Multiple</h2>
+				<p>Be sure not to open a modal while another is still visible. Showing more than one modal at a time requires custom code.</p>
+			</div>
 		</div>
-    </div>
-    <div class="footer">
-        <p>&copy;2016 All right reserved</p>
+        <div class="exercise">
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch modal</button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum volutpat urna nec dignissim. Aenean ut arcu et lectus dapibus eleifend eu non ipsum. Vivamus a erat non est blandit consectetur eu eu neque. Nulla eu odio feugiat sem imperdiet tempor. Fusce sed eros quis metus ultrices cursus quis a ligula. Ut aliquet elementum volutpat. Suspendisse eget augue a turpis maximus finibus eu vel turpis. Pellentesque mollis quis magna vitae consequat. Nunc maximus tincidunt turpis, a sodales sem efficitur sed. Sed ac dictum felis. Vivamus pharetra lacus sed ex suscipit, id vehicula erat pharetra. Curabitur laoreet et lorem sed accumsan.</p>
+                            <p>Duis justo velit, aliquam condimentum vulputate efficitur, aliquet non enim. Sed id mi vel massa blandit vehicula et nec ante. Etiam massa dui, porttitor sit amet interdum ut, hendrerit eget enim. In mi risus, condimentum non ante eget, finibus aliquet lectus. Integer diam metus, consectetur sit amet venenatis nec, interdum a mi. Donec sodales convallis felis, nec maximus risus euismod nec. Proin convallis eleifend purus placerat posuere. Vestibulum dapibus elementum pellentesque. Maecenas et viverra ipsum, in tristique velit. Nam auctor, lacus placerat ullamcorper aliquam, nunc arcu cursus lorem, ut rhoncus leo nunc sed nisl.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
     </div>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
