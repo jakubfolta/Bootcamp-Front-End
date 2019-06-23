@@ -1,26 +1,31 @@
 body {
 	margin: 0;
-	margin-top: 50px;
+}
+
+p {
+	font-size: 14px;
 }
 
 .jumbotron {
-    height: 400px;
-    background-image: url(/static/lessons/4.jpg);
-    background-size: cover;
-    margin-bottom: 20px;
+	background: url('/static/lessons/4.jpg');
+	background-size: cover;
 }
 
-h2 {
-    font-size: 25px;
-    text-align: center;
+.jumbotron h1 {
+	font-size: 35px;
+	font-weight: bold;
 }
 
-.col-xs-4 {
-	border: 2px solid #000000;
+.jumbotron p {
+	font-size: 16px;
+}
+
+.buttons {
+	text-align: center;
 }
 
 .footer {
-    font-size: 10px;
-	text-align: center;
 	padding: 20px;
+	text-align: center;
+	font-size: 10px;
 }
