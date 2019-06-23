@@ -21,11 +21,55 @@
 		<p>No need to add <strong>:active</strong> as it's a pseudo-class, but if you need to force the same appearance, go ahead and add <strong>.active.</strong></p>
         <div class="buttons">
         	<h2>Buttons</h2>
-        	<button type="button" class="btn btn-info btn-block" disabled="disabled">Button info</button>
-        	<button type="button" class="btn btn-success btn-block active">Button success</button>
-            <a href="#" type="button" class="btn btn-warning btn-block" disabled="disabled">Button warning</a>
-            <a href="#" type="button" class="btn btn-danger btn-block active">Button danger</a>
+
+        	<!--your button-group start-->
+
+
+            	<div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success">Action</button>
+                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                </div>
+
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-warning">Dropup</button>
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                    </ul>
+                </div>
+
+
+            <!--your button-group end-->
+
+
 		</div>
     </div>
+    <div class="footer">
+        <p>&copy;2016 All right reserved</p>
+    </div>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
