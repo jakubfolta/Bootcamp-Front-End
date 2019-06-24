@@ -15,37 +15,28 @@
     <div class="container">
     	<div class="row">
 	    	<div class="col-xs-6">
-				<h2>Modal</h2>
-				<p>Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults.</p>
+				<h2>Tabs</h2>
+				<p>Add quick, dynamic tab functionality to transition through panes of local content, even via dropdown menus. Nested tabs are not supported.</p>
 			</div>
 			<div class="col-xs-6">
-				<h2>Multiple</h2>
-				<p>Be sure not to open a modal while another is still visible. Showing more than one modal at a time requires custom code.</p>
+				<h2>Markup</h2>
+				<p>You can activate a tab or pill navigation without writing any JavaScript by simply specifying <strong>data-toggle="tab"</strong> or <strong>data-toggle="pill"</strong> on an element.</p>
 			</div>
 		</div>
         <div class="exercise">
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" data-keyboard="false" data-backdrop="false">Launch modal</button>
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum volutpat urna nec dignissim. Aenean ut arcu et lectus dapibus eleifend eu non ipsum. Vivamus a erat non est blandit consectetur eu eu neque. Nulla eu odio feugiat sem imperdiet tempor. Fusce sed eros quis metus ultrices cursus quis a ligula. Ut aliquet elementum volutpat. Suspendisse eget augue a turpis maximus finibus eu vel turpis. Pellentesque mollis quis magna vitae consequat. Nunc maximus tincidunt turpis, a sodales sem efficitur sed. Sed ac dictum felis. Vivamus pharetra lacus sed ex suscipit, id vehicula erat pharetra. Curabitur laoreet et lorem sed accumsan.</p>
-                            <p>Duis justo velit, aliquam condimentum vulputate efficitur, aliquet non enim. Sed id mi vel massa blandit vehicula et nec ante. Etiam massa dui, porttitor sit amet interdum ut, hendrerit eget enim. In mi risus, condimentum non ante eget, finibus aliquet lectus. Integer diam metus, consectetur sit amet venenatis nec, interdum a mi. Donec sodales convallis felis, nec maximus risus euismod nec. Proin convallis eleifend purus placerat posuere. Vestibulum dapibus elementum pellentesque. Maecenas et viverra ipsum, in tristique velit. Nam auctor, lacus placerat ullamcorper aliquam, nunc arcu cursus lorem, ut rhoncus leo nunc sed nisl.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#html" aria-controls="home" role="tab" data-toggle="tab">HTML</a></li>
+                <li role="presentation"><a href="#css" aria-controls="profile" role="tab" data-toggle="tab">CSS</a></li>
+                <li role="presentation"><a href="#javascript" aria-controls="messages" role="tab" data-toggle="tab">JavaScript</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="html">HTML (ang. HyperText Markup Language) – hipertekstowy język znaczników, obecnie szeroko wykorzystywany do tworzenia stron internetowych. HTML pozwala opisać strukturę informacji zawartych wewnątrz strony internetowej, nadając znaczenie poszczególnym fragmentom tekstu.</div>
+                <div role="tabpanel" class="tab-pane" id="css">Cascading Style Sheets, w skrócie CSS) to język służący do opisu formy prezentacji (wyświetlania) stron WWW. CSS został opracowany przez organizację W3C w 1996 r. jako potomek języka DSSSL przeznaczony do używania w połączeniu z SGML-em.</div>
+                <div role="tabpanel" class="tab-pane" id="javascript">JavaScript, JS – skryptowy język programowania, stworzony przez firmę Netscape, najczęściej stosowany na stronach internetowych. Pod koniec lat 90. XX wieku organizacja ECMA wydała na podstawie JavaScriptu standard języka skryptowego o nazwie ECMAScript. Głównym autorem JavaScriptu jest Brendan Eich.</div>
             </div>
 		</div>
     </div>
-        <!-- Scripts -->
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
